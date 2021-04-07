@@ -16,6 +16,7 @@ var (
 	vmdirs = []string{
 		fmt.Sprintf("%s/%s", home, "Virtual Machines.localized"),
 		fmt.Sprintf("%s/%s", home, "Documents/Virtual Machines.localized"),
+		os.Getenv("VMDIR"),
 	}
 )
 
